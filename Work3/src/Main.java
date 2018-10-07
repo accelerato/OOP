@@ -55,5 +55,22 @@ public class Main {
         System.out.println(sq1.getColor());
         System.out.println(sq1.getSide());
         System.out.println(sq1.getLength());
+
+        MovableCircle krug1 = new MovableCircle(0, 0, 4, 4, 5);
+        System.out.println(krug1.toString());
+        krug1.moveLeft();
+        System.out.println( krug1.toString());
+        krug1.moveRight();
+        krug1.moveRight();
+        krug1.moveRight();
+        System.out.println( krug1.toString());
+        krug1.moveRight();
+        krug1.moveDown();
+        System.out.println( krug1.toString());
+        krug1.moveDown();
+        System.out.println( krug1.toString());
+        krug1.moveUp();
+        krug1.moveLeft();
+        System.out.println( krug1.toString());
     }
 }

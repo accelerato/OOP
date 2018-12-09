@@ -52,4 +52,11 @@ public class Book {
     public void setName(String name) {
         this.name = name;
     }
+    public String toString(){
+        return this.name+", amount page "+this.countPage;
+    }
+    public void printClass(){
+        System.out.println(name  + " книга, в которой "+ countPage + " страниц");
+    }
+
 }

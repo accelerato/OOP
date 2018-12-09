@@ -11,12 +11,11 @@ public class Main {
         Book secondA = new Book("blue");
         Book secondB = new Book("blue", 80);
         Book secondC = new Book("blue", 300, "Invisible man");
-        System.out.println(firstC.getColor());
-        System.out.println(firstC.getRadius());
-        System.out.println(firstC.getWeight());
-        System.out.println(secondC.getColor());
-        System.out.println(secondC.getName());
-        System.out.println(secondC.getCountPage());
-        System.out.println(secondC.getClass());
+        firstA.printClass();
+        firstB.printClass();
+        firstC .printClass();
+        secondA.printClass();
+        secondB.printClass();
+        secondC.printClass();
     }
 }

@@ -52,4 +52,12 @@ public class Ball {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+    public String toString(){
+        return this.color+", radius "+this.radius;
+    }
+    public void printClass(){
+        System.out.println(color  + " мяч с диаметром "+ (radius * 2) + " сантиметров");
+    }
+
 }
+
